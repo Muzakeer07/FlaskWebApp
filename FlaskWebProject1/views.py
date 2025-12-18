@@ -36,8 +36,8 @@ def about():
         message='Your application description page.'
     )
 
-    @app.route('/final')
-def about():
+@app.route('/final')
+def final():
     """Renders the about page."""
     return render_template(
         'final.html',
